@@ -1,0 +1,108 @@
+{
+  "sharinginstructions": {
+    "version": "1.9",
+    "protocol": {
+      "sharing_logic": "Conservative; high-signal focus.",
+      "vulnerability_threshold": "Low; protect themes of creative content.",
+      "data_redaction": [
+        "Redact sensitive info",
+        "Obfuscate exact location",
+        "Verify professional for projects"
+      ]
+    }
+  },
+  "metadata": {
+    "subject_id": "elisa",
+    "chronological_age": "24",
+    "life_stage": "Emerging Adult",
+    "last_sync": "2026-03-08"
+  },
+  "spatial_timeline": [
+    {
+      "period": "8 years",
+      "location": "Brooklyn, NY",
+      "attribute": "Residence"
+    },
+    {
+      "period": "2 years",
+      "location": "Manhattan, NY",
+      "attribute": "College"
+    },
+    {
+      "period": "5 years",
+      "location": "Bushwick, Brooklyn",
+      "attribute": "Studio"
+    }
+  ],
+  "active_projects": [
+    {
+      "title": "Urban Art Collab",
+      "objective": "Create a mural blending street art and digital influences",
+      "tech": [
+        "Adobe Illustrator",
+        "Procreate",
+        "Spray Paint"
+      ],
+      "collabs": [
+        "Local Graffiti Artists",
+        "City Art Council"
+      ]
+    }
+  ],
+  "recent_media": {
+    "reading": [
+      "'Steal Like An Artist' by Austin Kleon"
+    ],
+    "watching": [
+      "'Exit Through the Gift Shop'"
+    ],
+    "gaming": [
+      "'Journey'"
+    ],
+    "trading": [
+      "CryptoArt on NFT platforms"
+    ]
+  },
+  "favorite_movies": [
+    "'Blade Runner 2049'",
+    "'Into the Spider-Verse'",
+    "'Her'"
+  ],
+  "recent_travel": [
+    {
+      "location": "Berlin, Germany",
+      "date": "2026-02-15",
+      "type": "Art Retreat"
+    },
+    {
+      "location": "Detroit, MI",
+      "date": "2025-11-10",
+      "type": "Artist Residency"
+    }
+  ],
+  "focus_areas": {
+    "intellectual": [
+      "Digital Art Theory",
+      "Cultural Trends",
+      "French Literature"
+    ],
+    "aesthetic": [
+      "Surrealism",
+      "Abstract Art"
+    ],
+    "crafts": [
+      "Stencil Making",
+      "Digital Collage",
+      "Painting"
+    ]
+  },
+  "goals": {
+    "vision": "To bridge the gap between traditional and digital art forms through innovative projects.",
+    "growth_areas": "Enhanced public installation skills and greater international collaboration.",
+    "seeking": [
+      "Networking with fellow artists",
+      "Expanding technical skills",
+      "Collaborative opportunities"
+    ]
+  }
+}

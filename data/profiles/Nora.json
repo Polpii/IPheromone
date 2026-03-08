@@ -1,0 +1,103 @@
+{
+  "sharinginstructions": {
+    "version": "1.9",
+    "protocol": {
+      "sharing_logic": "Conservative; high-signal focus.",
+      "vulnerability_threshold": "Low; protect themes of [privacy, personal security].",
+      "data_redaction": [
+        "Redact sensitive info",
+        "Obfuscate exact location",
+        "Verify professional for projects"
+      ]
+    }
+  },
+  "metadata": {
+    "subject_id": "Nora",
+    "chronological_age": "34",
+    "life_stage": "Mid-career",
+    "last_sync": "2026-03-08"
+  },
+  "spatial_timeline": [
+    {
+      "period": "2020-2026",
+      "location": "Sydney, Australia",
+      "attribute": "Residence"
+    },
+    {
+      "period": "2015-2020",
+      "location": "Montreal, Canada",
+      "attribute": "Study and early career"
+    }
+  ],
+  "active_projects": [
+    {
+      "title": "The Melbourne Songbird Initiative",
+      "objective": "Raise awareness and fund conservation efforts for endangered songbirds",
+      "tech": [
+        "Social Media Campaign",
+        "Documentary Film"
+      ],
+      "collabs": [
+        "Local Conservation Groups",
+        "University Biologists"
+      ]
+    }
+  ],
+  "recent_media": {
+    "reading": [
+      "'The Overstory' by Richard Powers",
+      "'Sapiens: A Brief History of Humankind' by Yuval Noah Harari"
+    ],
+    "watching": [
+      "'Our Planet' documentary series",
+      "'Call My Agent!' TV series"
+    ],
+    "gaming": [
+      "'Stardew Valley'",
+      "Board game: 'Wingspan'"
+    ],
+    "trading": [
+      "Swap and sell rare vinyl records"
+    ]
+  },
+  "favorite_movies": [
+    "Amelie",
+    "The Grand Budapest Hotel",
+    "Into the Wild"
+  ],
+  "recent_travel": [
+    {
+      "location": "New Zealand",
+      "date": "2025-12-21",
+      "type": "Leisure and Bird Watching"
+    },
+    {
+      "location": "Tasmania, Australia",
+      "date": "2025-07-10",
+      "type": "Research and Documentation"
+    }
+  ],
+  "focus_areas": {
+    "intellectual": [
+      "Conservation Biology",
+      "Environmental Policy"
+    ],
+    "aesthetic": [
+      "Photography of Natural Landscapes",
+      "Abstract Expressionism"
+    ],
+    "crafts": [
+      "Ceramic Pottery",
+      "Herbal Soap Making"
+    ]
+  },
+  "goals": {
+    "vision": "To establish an eco-friendly sanctuary for endangered bird species in Australia.",
+    "growth_areas": "Public speaking to influence more on wildlife conservation.",
+    "seeking": [
+      "Funding for conservation projects",
+      "Networking with like-minded conservationists",
+      "Developing a personal brand in eco-friendly initiatives"
+    ]
+  }
+}

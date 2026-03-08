@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000000;
+  --foreground: #ededed;
 }
 
 @theme inline {
@@ -12,15 +12,157 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+body {
+  background: #000;
+  color: #ededed;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* ---- Tamagotchi animations ---- */
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes wave-bounce {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-16px) rotate(-10deg);
+  }
+  75% {
+    transform: translateY(-16px) rotate(10deg);
+  }
+}
+
+@keyframes listen-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+    filter: drop-shadow(0 0 12px rgba(0, 229, 255, 0.3));
+  }
+  50% {
+    transform: scale(1.08);
+    filter: drop-shadow(0 0 40px rgba(0, 229, 255, 0.7));
+  }
+}
+
+@keyframes think-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes fade-in-scale {
+  from {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+.animate-wave {
+  animation: wave-bounce 0.5s ease-in-out infinite;
+}
+.animate-listen {
+  animation: listen-pulse 1.5s ease-in-out infinite;
+}
+.animate-think {
+  animation: think-bob 1s ease-in-out infinite;
+}
+.animate-fade-in {
+  animation: fade-in-scale 0.8s ease-out forwards;
+}
+
+/* ---- Dating ripple waves ---- */
+@keyframes ripple {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+@keyframes dating-glow {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+    filter: drop-shadow(0 0 8px rgba(255, 105, 180, 0.4));
+  }
+  50% {
+    transform: scale(1.05) rotate(3deg);
+    filter: drop-shadow(0 0 28px rgba(255, 105, 180, 0.8));
+  }
+}
+
+.animate-dating {
+  animation: dating-glow 2s ease-in-out infinite;
+}
+
+.animate-ripple-1 {
+  animation: ripple 2s ease-out infinite;
+}
+.animate-ripple-2 {
+  animation: ripple 2s ease-out infinite 0.66s;
+}
+.animate-ripple-3 {
+  animation: ripple 2s ease-out infinite 1.33s;
+}
+
+/* ---- Interact animation (agents page) ---- */
+@keyframes interact-bounce {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  25% {
+    transform: translateY(-8px) scale(1.08);
+  }
+  75% {
+    transform: translateY(-4px) scale(1.04);
+  }
+}
+
+@keyframes ripple-fast {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+.animate-interact {
+  animation: interact-bounce 0.6s ease-in-out infinite;
+}
+
+.animate-ripple-fast-1 {
+  animation: ripple-fast 1s ease-out infinite;
+}
+.animate-ripple-fast-2 {
+  animation: ripple-fast 1s ease-out infinite 0.5s;
 }

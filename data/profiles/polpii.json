@@ -1,0 +1,82 @@
+{
+  "sharinginstructions": {
+    "version": "1.9",
+    "protocol": {
+      "sharing_logic": "Conservative; high-signal focus.",
+      "vulnerability_threshold": "Low; protect themes of culinary aspiration.",
+      "data_redaction": [
+        "Redact sensitive info",
+        "Obfuscate exact location",
+        "Verify professional for projects"
+      ]
+    }
+  },
+  "metadata": {
+    "subject_id": "polpii",
+    "chronological_age": "28",
+    "life_stage": "Young Adult",
+    "last_sync": "2026-03-07"
+  },
+  "spatial_timeline": [
+    {
+      "period": "Birth-Current",
+      "location": "Paris",
+      "attribute": "Birthplace"
+    },
+    {
+      "period": "Unknown",
+      "location": "USA",
+      "attribute": "Residency"
+    },
+    {
+      "period": "Unknown",
+      "location": "Australia",
+      "attribute": "Residency"
+    }
+  ],
+  "active_projects": [
+    {
+      "title": "Tangible Platform",
+      "objective": "Development",
+      "tech": [
+        "Web",
+        "Software"
+      ],
+      "collabs": []
+    }
+  ],
+  "recent_media": {
+    "reading": [],
+    "watching": [
+      "One Piece"
+    ],
+    "gaming": [],
+    "trading": []
+  },
+  "favorite_movies": [
+    "Harry Potter"
+  ],
+  "recent_travel": [
+    {
+      "location": "Vietnam",
+      "date": "Recent",
+      "type": "Travel"
+    }
+  ],
+  "focus_areas": {
+    "intellectual": [
+      "Neuroscience"
+    ],
+    "aesthetic": [
+      "Painting"
+    ],
+    "crafts": [
+      "Cooking"
+    ]
+  },
+  "goals": {
+    "vision": "Become a chef",
+    "growth_areas": "",
+    "seeking": []
+  }
+}
