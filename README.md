@@ -1,4 +1,4 @@
-# Large Language Pheromones
+# IPheromone
 
 A tamagotchi companion app that lives on your screen — and smells things in real life.
 
@@ -22,7 +22,7 @@ This project combines a pixel-art virtual pet with AI-powered multi-agent conver
 │   │   ├── user/            # Individual user pages
 │   │   └── api/             # All API endpoints (see below)
 │   ├── components/          # React components (CompanionScreen, Tamagotchi, etc.)
-│   └── lib/                 # Shared utilities (OpenAI client, scent bridge, profiles)
+│   └── lib/                 # Shared utilities (scent bridge, profiles)
 ├── raspberry/
 │   └── client.py            # Pi client — display, LEDs, mic, speaker
 ├── scent-bridge/
@@ -36,7 +36,7 @@ This project combines a pixel-art virtual pet with AI-powered multi-agent conver
 ### Prerequisites
 
 - Node.js 18+
-- An OpenAI API key
+- An Claude API key
 
 ### Installation
 
@@ -47,14 +47,14 @@ npm install
 Create a `.env.local` file at the root:
 
 ```
-OPENAI_API_KEY=sk-...
+CLAUDE_API_KEY=sk-...
 ```
 
 Optionally, you can also set:
 
 ```
-OPENAI_MODEL=gpt-4o          # defaults to gpt-4o
-SCENT_BRIDGE_PORT=5050        # defaults to 5050
+MODEL=       
+SCENT_BRIDGE_PORT=5050
 ```
 
 ### Running the app
@@ -158,7 +158,7 @@ The bridge exposes a simple REST API on port 5050:
 - **Next.js 16** with App Router and React 19
 - **TypeScript**
 - **Tailwind CSS 4**
-- **OpenAI SDK** (GPT-4o, Whisper)
+- **LLM**
 - **Python** for the BLE bridge and Pi client
 - **Bleak** for BLE communication
 - **Adafruit CircuitPython** libraries for the Pi display and LEDs
